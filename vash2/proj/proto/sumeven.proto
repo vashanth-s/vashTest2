@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message StreamNumbers {
+    int32 number = 1;
+}
+
+message SumEvenResult {
+    int32 result = 1;
+}
+

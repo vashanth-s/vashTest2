@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message Entity {
+    string name = 1;
+    string entityId = 2;
+    string entityType = 3;
+    int32 id = 4;
+}
+
+message Entities {
+    repeated Entity entities = 1;
+}

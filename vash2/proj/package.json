@@ -1,0 +1,20 @@
+{
+  "name": "proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.8.14",
+    "google-protobuf": "^3.21.2",
+    "grpc": "^1.24.11"
+  },
+  "devDependencies": {
+    "grpc-tools": "^1.12.4",
+    "protoc-gen-grpc": "^2.0.3"
+  }
+}

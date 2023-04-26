@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package combined;
+
+import "sum.proto";
+import "sumeven.proto";
+import "sumodd.proto";
+
+service CombinedService {
+    rpc getSum (Operands) returns (SumResult);
+    rpc getSumOfEvenNumbers (stream StreamNumbers) returns (SumEvenResult);
+    rpc getSumOfOddNumbers (StreamArray) returns (stream OddNumber);
+}

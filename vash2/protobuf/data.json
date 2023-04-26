@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Twitter",
+        "entityType": "api",
+        "entityId": "1-2-3",
+        "id": 4
+    },
+    {
+        "name": "Spotify",
+        "entityType": "collection",
+        "entityId": "1-2-3",
+        "id": 5
+    }
+]

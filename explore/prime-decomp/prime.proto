@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message Request {
+    int32 number = 1;
+} 
+
+message Response {
+    string result = 1;
+}
+
+service PrimeService {
+    rpc decompose (Request) returns (stream Response);
+}

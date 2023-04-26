@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message StreamArray {
+    repeated int32 arr = 1;
+}
+
+message OddNumber {
+    int32 oddNumber = 1;
+}
+
